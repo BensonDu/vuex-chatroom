@@ -34,3 +34,7 @@ http://localhost:8080
 
 项目占用 8080 9000 端口<br />
 启动失败查看端口是否被占用；
+
+```bash
+MAC/Linux 查看端口占用，如果 command not found，安装即可；
+lsof -i:8080
