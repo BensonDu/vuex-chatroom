@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import App from './App';
-import VueSocketio from 'vue-socket.io';
+import VueSocketio from './lib/socketio';
 
 import VueRouter from 'vue-router';
 import VueResource from 'vue-resource';
